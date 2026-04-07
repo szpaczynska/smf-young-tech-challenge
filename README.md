@@ -1,6 +1,7 @@
 Aplikacja opiera się na jednym kontrolerze (ProductController), jednym modelu (Product) oraz jednym serwisie (OcrAiParser).
 Główny widok znajduje się pod adresem: products
 Aby mieć możliwość wypróbowania wszytskich funkcji należy dodać HF_API_KEY= w pliku .env
+
 Dodaj produkty - użyj plików .JPG znajdujących się w folderze smf-young-tech-challenge/tests/sample
 
 Model produktu zawiera parametry takie jak:
