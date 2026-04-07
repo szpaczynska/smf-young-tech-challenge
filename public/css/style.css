@@ -1,0 +1,86 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+    text-transform: uppercase;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
+
+.products-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 400px;
+    margin: 0 50px;
+}
+
+.product h3{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.product p{
+    margin: 0 0 20px;
+}
+
+.product-action{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.see{
+    background-color: #442803;
+    color:white;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    height: 20px;
+    width: 60px;
+    text-decoration: none;
+}
+
+.edit{
+    background-color: #CCBDAD;
+    color:white;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    height: 20px;
+    width: 60px;
+    text-decoration: none;
+}
+
+.delete{
+    background-color: #820C0C;
+    color:white;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    height: 22px;
+    width: 60px;
+    border: 0;
+    cursor:pointer;
+}
+
+.add{
+    border: 1px solid #805252;
+    color:#805252;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
